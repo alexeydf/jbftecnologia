@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBF Tecnologia - Sistema de atendimento de filas</title>
+
+    <meta name="description" content="Descrição do serviço">
+    <meta name="keywords" content="palavras chaves">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="Alexey Braga Lima Barreto">
+    <meta name="reply-to" content="alexeydf@gmail.com">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+    <header class="top-header conteudo-geral">
+        <div class="logo-header">
+            <a href="index.html"><img src="img/logo02.png" alt="Logo da empresa"></a>
+        </div>
+
+        <div class="btn-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">Módulos</a></li>
+                <li><a href="">Clientes</a></li>
+                <li><a href="">Quem Somos</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Localização</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="conteudo-geral">
+                <h1>Sistema de Gerenciamento de Filas</h1>
+            </div>
+
+            <div class="btn">
+                <a href="#linkmodulos">Conheça</a>
+            </div>
+        </section>
+
+        <section class="introducao conteudo-geral">
+            <h2 class="titulo">Introdução</h2>
+
+            <p>
+                Sistema totalmente informatizado que roda em plataforma Windows 
+                e utiliza recursos de rede, podendo ser acionado a partir de 
+                qualquer computador que estiver alocado na rede, sem contar 
+                os recursos de multimídia, que a partir deste, permite veicular 
+                vídeos em DVD e propagandas, entre outros, jornal de texto, 
+                relatórios estatísticos e gráficos de atendimento, tempo médio 
+                de atendimento, quantidade de senhas atendidas e outros dados 
+                pertinentes ao atendimento.
+            </p>
+        </section>
+
+        <section class="modulos" id="linkmodulos">
+            <div class="conteudo-geral">
+                <h2 class="titulo">Módulos</h2>
+
+                <article class="modulo">
+                    <h3>Módulo Painel TV</h3>
+                    <img src="img/paineltv01.png" alt="Imagem módulo Painel TV">
+                    <p>
+                        Para exibir a tela de senha e o sinal de TV aberta, fechada ou
+                         um vídeo institucional enquanto o usuário aguarda sua senha
+                          ser chamada.
+                    </p>
+                </article>
+
+                <article class="modulo" id="#impressora">
+                    <h3>Módulo Impressor de Senha</h3>
+                    <img src="img/impressora01.jpg" alt="Imagem módulo Impressor de Senha">
+                    <p>
+                        Programa para geração e impressão das senhas. Ao chegar no posto de 
+                        atendimento, o usuário verifica o menu na tela e escolhe, num monitor 
+                        tátil, o botão correspondente ao serviço desejado. Ao fazer isso, uma 
+                        senha será impressa automaticamente para o serviço requisitado. Tendo 
+                        em vista o elevado custo do monitor touch-screen, o sistema possui a 
+                        opção de um painel com vários botões e uma descrição, por meio de uma 
+                        etiqueta ou algo similar, do serviço associado aquele botão. Esta opção 
+                        não necessita de um computador dedicado para essa operação. 
+                    </p>
+                </article>
+
+                <article class="modulo">
+                    <h3>Módulo Servidor</h3>
+                    <img src="img/servidor01.webp" alt="Imagem módulo Servidor">
+                    <p>
+                        Este módulo pode rodar no mesmo computado em que outros módulos estejam 
+                        instalados. Entretanto, o ideal é instalar este módulo em um computador 
+                        interno ao posto de atendimento, pois é ele que detém toda a inteligência 
+                        do sistema, e qualquer intervenção na operação devem ser efetuados a partir 
+                        dele. O programa Servidor é responsável por receber e atender aos pedidos de 
+                        senhas dos terminais de atendimento, receber as requisições de emissão de 
+                        senhas e enviá-las para a impressora, transmitir dados para o(s) painel(eis) 
+                        de exibição das senhas chamadas, gerenciar a operação dos outros módulos e 
+                        emitir relatórios gerenciais. Esse módulo consome pouca memória e não 
+                        necessita de nenhum banco de dados para operar, assim, pode ser instalado em 
+                        um computador com poucos recursos. Os relatórios gerados estão no formato 
+                        aberto RTF e podem ser lidos por praticamente todos os editores de texto 
+                        existentes.
+                    </p>
+                    <p>
+                        Importante! Para que o sistema opere corretamente é necessário que todos os 
+                        computadores utilizados estejam conectados a uma rede local, em um mesmo 
+                        segmento.
+                    </p>
+                </article>
+
+                <article class="modulo">
+                    <h3>Módulo Terminais</h3>
+                    <img src="img/terminal.webp" alt="Imagem módulo terminais">
+                    <p>
+                        Este módulo será operado pelos atendentes do posto de serviço, 
+                        responsáveis pelo atendimento ao público em geral, em quantos 
+                        terminais forem necessários. A função deste módulo é requisitar 
+                        uma senha ou repetir uma senha já chamada, toda vez que o 
+                        atendente acionar uma tecla específica ou uma combinação de 
+                        teclas.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="clientes">
+            <h2 class="titulo">Clientes</h2>
+
+            <div class="clientes-img">
+                <img src="img/clientes/acessosaude.webp" alt="Logo Acesso Saúde">
+                <img src="img/clientes/amorsaude.webp" alt="Logo AmorSaúde">
+                <img src="img/clientes/cardionorte02.jpeg" alt="Logo Cardio Norte">
+                <img src="img/clientes/maternoinfantil.jpeg" alt="Logo Centro Clínico Materno Infantil">
+                <img src="img/clientes/cardioclinica.jpeg" alt="Logo Cardio Clínica">
+                <img src="img/clientes/lotericaboasorte.gif" alt="Logo Lotérica Boa Sorte">
+                <img src="img/clientes/lotericalefer.webp" alt="Logo Lotérica Lefer">
+                <img src="img/clientes/sebrae.webp" alt="Logo Sebrae">
+                <img src="img/clientes/cartaodetodos.jpeg" alt="Logo Cartão de Todos">
+                <img src="img/clientes/unimedica.webp" alt="Logo Uni Médica">
+                <img src="img/clientes/clinicasantarita.jpeg" alt="Logo Clínica Santa Rita">
+                <img src="img/clientes/fenelon.jpeg" alt="Logo Fenelon">
+            </div>
+        </section>
+
+        <section class="quemsomos">
+            <div class="conteudo-geral">
+                <h2 class="titulo">Quem Somos</h2>
+
+                <h3 class="subtitulo">A empresa</h3>
+                <p>
+                    Somos uma empresa sediada em Brasília, especializada em projeto de 
+                    fabricação, instalação e manutenção de painéis de senha para 
+                    gerenciamento de atendimento ao público. Operamos também em outros 
+                    estados. 
+                </p>
+
+                <h3 class="subtitulo">
+                Missão 
+                </h3>
+                <p>
+                    Nossa missão é disponibilizar produtos e soluções eficientes ao 
+                    atendimento público, sempre priorizando o cliente, deixando-o 
+                    isento de qualquer preocupação relacionada ao desenvolvimento dos 
+                    trabalhos.
+                </p>
+            </div>
+        </section>
+
+        <section class="contatos" id="linkcontatos">
+            <div class="conteudo-geral">
+                <h2 class="titulo">Contatos</h2>
+
+                <div class="contatos-txt">
+                    <p>Horário de funcionamento:</p>
+                    <p>Segunda a sexta de 08:00 às 18:00</p>
+                </div>
+
+                <nav class="contatos-links">
+                    <ul>
+                        <li>
+                            <a href="tel:61981455970">
+                                <i class="fas fa-phone"></i>
+                                <span>61 98154-5970</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:61986659339">
+                                <i class="fas fa-phone"></i>
+                                <span>61 986659339</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://api.whatsapp.com/send?1=pt_BR&phone=556141019881" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WhatsApp</span> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:curupacobrasil@hotmail.com">
+                                <i class="fas fa-envelope"></i>
+                                <span>jbftecnologia@gmail.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <section class="localizacao">
+            <div class="conteudo-geral">
+                <h2 class="titulo">Localização</h2>
+
+                <div class="endereco">
+                    <p>CLN 07 Bloco "H" Lote 1/2 Sala 07 - Riacho Fundo I-DF</p>
+                </div>
+
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.5794764602774!2d-48.02358888514392!3d-15.87868428899884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdcbf25f500062390!2sJBFTECNOLOGIA!5e0!3m2!1spt-BR!2sbr!4v1625806868643!5m2!1spt-BR!2sbr"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="conteudo-geral">
+            <img src="img/logo02.png" alt="Logo empresa">
+            <div class="contatos-footer">
+                <i class="fas fa-phone-square"></i>
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <p>© 2021 - JBF Tecnologia - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
